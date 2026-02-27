@@ -20,6 +20,6 @@ spec:
         purpose: helm-demo
         project: roboshop
     spec:
-      conatiners:
+      containers:
       - name: nginx
         image: nginx:{{ .Values.deployment.imageVersion }}
